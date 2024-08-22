@@ -11,12 +11,39 @@
 .user_name{
   height: 100px;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name a{
+  color: #FAFAFA;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.chat_make a{
+  padding: 14px;
+  color: deepskyblue;
+  font-size: 10px;
+  border: 1px solid lightblue;
+  text-decoration: none;
 }
 
 .room_index{
   background-color: #2F3E51;
   height: calc(100vh - 100px);
   padding: 0 20px;
+  overflow: scroll;
+}
+
+.chat_room{
+  padding: 20px 0 40px;
+}
+
+.chat_room a{
+  color: white;
+  text-decoration: none;
 }
 
 .main{
