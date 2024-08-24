@@ -22,7 +22,7 @@
   text-decoration: none;
 }
 
-.chat_make a{
+.room-make-btn{
   padding: 14px;
   color: deepskyblue;
   font-size: 10px;
@@ -37,11 +37,11 @@
   overflow: scroll;
 }
 
-.chat_room{
+.room{
   padding: 20px 0 40px;
 }
 
-.chat_room a{
+.room-name a{
   color: white;
   text-decoration: none;
 }
