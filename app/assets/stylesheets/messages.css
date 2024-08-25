@@ -110,28 +110,28 @@
   color: #434A54;
 }
 
-.writing{
+.form{
   background-color: #DDDDDD;
   height: 90px;
   padding: 20px 40px;
   display: flex;
 }
 
-.writing-form{
+.form-input{
   justify-content: space-between;
   width: 100%;
   display: flex;
   background-color: white;
 }
 
-.writing-box{
+.form-message{
   padding-left: 10px;
   height: 50px;
   width: 100%;
   border: none;
 }
 
-.submit-btn{
+.form-submit{
   height: 50px;
   margin-left: 15px;
   background-color: #38AEF0;
