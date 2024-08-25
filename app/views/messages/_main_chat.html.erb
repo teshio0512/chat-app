@@ -24,13 +24,13 @@
     <div class="half-bottom">こんばんは</div>
   </div>
 </div>
-<div class="writing">
-  <div class="writing-form">
-    <input type="text" placeholder="type a messsage" class="writing-box">
+<%= form_with model: [@room, @message], class: "form", local: true do |f|%>
+  <div class="form-input">
+    <%= f.text_field :content, class: 'form-message', placeholder: 'type a message' %>
     <label class="form-image">
       <span class="image-file">画像</span>
-      <input type="file" class="hidden">
+      <%= f.file_field :image, class: 'hidden' %>
     </label>
   </div>
-  <input type="submit" value="送信" class="submit-btn" >
-</div>
+  <%= f.submit '送信', class: 'form-submit' %>
+<% end %>
